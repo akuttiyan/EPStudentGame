@@ -1,4 +1,4 @@
-from archetype_supplies import Player
+from archetype import Player
 
 def load_game():
     # If they have preloaded gamestate, load that here
