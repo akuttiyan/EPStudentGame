@@ -27,7 +27,7 @@ def choose_archetype():
 def buy_supplies():
 
     
-    
+    '''
     print("Now it's time to buy supplies. Here are your options:")
     print("1. Books")
     print("2. Calculator")
@@ -38,98 +38,117 @@ def buy_supplies():
     print("7. Stylus")
     print("Press spacebar to exit the supplies")
     supplies_input = input("What would you like to buy? (Press the number)")
-    
+    '''
+    '''
+    while keyboard.read_key != "space":
 
-    if supplies_input == "1":
-        num_books = input("How many books would you like to buy for the school year?")
+        if supplies_input == "1":
+            num_books = input("How many books would you like to buy for the school year?")
 
-        print("Now it's time to buy supplies. Here are your options:")
-        print("1. Books")
-        print("2. Calculator")
-        print("3. Pens/Pencils")
-        print("4. Notebooks")
-        print("5. Computer Quality")
-        print("6. Charger")
-        print("7. Stylus")
-        print("Press spacebar to exit the supplies")
-        supplies_input = input("What would you like to buy? (Press the number)")
-    if supplies_input == "2":
-        calculator = input("What type of calculator do you want?")
+            print("Now it's time to buy supplies. Here are your options:")
+            print("1. Books")
+            print("2. Calculator")
+            print("3. Pens/Pencils")
+            print("4. Notebooks")
+            print("5. Computer Quality")
+            print("6. Charger")
+            print("7. Stylus")
+            print("Press spacebar to exit the supplies")
+            supplies_input = input("What would you like to buy? (Press the number)")
+        if supplies_input == "2":
+            calculator = input("What type of calculator do you want?")
 
-        print("Now it's time to buy supplies. Here are your options:")
-        print("1. Books")
-        print("2. Calculator")
-        print("3. Pens/Pencils")
-        print("4. Notebooks")
-        print("5. Computer Quality")
-        print("6. Charger")
-        print("7. Stylus")
-        print("Press spacebar to exit the supplies")
-        supplies_input = input("What would you like to buy? (Press the number)")
+            print("Now it's time to buy supplies. Here are your options:")
+            print("1. Books")
+            print("2. Calculator")
+            print("3. Pens/Pencils")
+            print("4. Notebooks")
+            print("5. Computer Quality")
+            print("6. Charger")
+            print("7. Stylus")
+            print("Press spacebar to exit the supplies")
+            supplies_input = input("What would you like to buy? (Press the number)")
 
-    if supplies_input == "3":
-        num_pencils = input("How many pens pencils do you want?")
+        if supplies_input == "3":
+            num_pencils = input("How many pens pencils do you want?")
 
-        print("Now it's time to buy supplies. Here are your options:")
-        print("1. Books")
-        print("2. Calculator")
-        print("3. Pens/Pencils")
-        print("4. Notebooks")
-        print("5. Computer Quality")
-        print("6. Charger")
-        print("7. Stylus")
-        print("Press spacebar to exit the supplies")
-        supplies_input = input("What would you like to buy? (Press the number)")
+            print("Now it's time to buy supplies. Here are your options:")
+            print("1. Books")
+            print("2. Calculator")
+            print("3. Pens/Pencils")
+            print("4. Notebooks")
+            print("5. Computer Quality")
+            print("6. Charger")
+            print("7. Stylus")
+            print("Press spacebar to exit the supplies")
+            supplies_input = input("What would you like to buy? (Press the number)")
            
 
-    if supplies_input == "4":
-        num_notebooks = input("How many notebooks do you want?")
+        if supplies_input == "4":
+            num_notebooks = input("How many notebooks do you want?")
 
-        print("Now it's time to buy supplies. Here are your options:")
-        print("1. Books")
-        print("2. Calculator")
-        print("3. Pens/Pencils")
-        print("4. Notebooks")
-        print("5. Computer Quality")
-        print("6. Charger")
-        print("7. Stylus")
-        print("Press spacebar to exit the supplies")
-        supplies_input = input("What would you like to buy? (Press the number)")
+            print("Now it's time to buy supplies. Here are your options:")
+            print("1. Books")
+            print("2. Calculator")
+            print("3. Pens/Pencils")
+            print("4. Notebooks")
+            print("5. Computer Quality")
+            print("6. Charger")
+            print("7. Stylus")
+            print("Press spacebar to exit the supplies")
+            supplies_input = input("What would you like to buy? (Press the number)")
             
 
-    if supplies_input == "5":
-        computer_type = input("What computer type do you want?")
+        if supplies_input == "5":
+            computer_type = input("What computer type do you want?")
  
-        print("Now it's time to buy supplies. Here are your options:")
-        print("1. Books")
-        print("2. Calculator")
-        print("3. Pens/Pencils")
-        print("4. Notebooks")
-        print("5. Computer Quality")
-        print("6. Charger")
-        print("7. Stylus")
-        print("Press spacebar to exit the supplies")
-        supplies_input = input("What would you like to buy? (Press the number)")
+            print("Now it's time to buy supplies. Here are your options:")
+            print("1. Books")
+            print("2. Calculator")
+            print("3. Pens/Pencils")
+            print("4. Notebooks")
+            print("5. Computer Quality")
+            print("6. Charger")
+            print("7. Stylus")
+            print("Press spacebar to exit the supplies")
+            supplies_input = input("What would you like to buy? (Press the number)")
             
 
-    if supplies_input == "6":
-        num_chargers = input("How many chargers do you want?")
+        if supplies_input == "6":
+            num_chargers = input("How many chargers do you want?")
             
-        print("Now it's time to buy supplies. Here are your options:")
-        print("1. Books")
-        print("2. Calculator")
-        print("3. Pens/Pencils")
-        print("4. Notebooks")
-        print("5. Computer Quality")
-        print("6. Charger")
-        print("7. Stylus")
-        print("Press spacebar to exit the supplies")
+            print("Now it's time to buy supplies. Here are your options:")
+            print("1. Books")
+            print("2. Calculator")
+            print("3. Pens/Pencils")
+            print("4. Notebooks")
+            print("5. Computer Quality")
+            print("6. Charger")
+            print("7. Stylus")
+            print("Press spacebar to exit the supplies")
         supplies_input = input("What would you like to buy? (Press the number)")
           
     
-    if supplies_input == "7":
-        num_styluses = input("How many styluses do you want?")
+        if supplies_input == "7":
+            num_styluses = input("How many styluses do you want?")
             
+            print("Now it's time to buy supplies. Here are your options:")
+            print("1. Books")
+            print("2. Calculator")
+            print("3. Pens/Pencils")
+            print("4. Notebooks")
+            print("5. Computer Quality")
+            print("6. Charger")
+            print("7. Stylus")
+            print("Press spacebar to exit the supplies")
+            supplies_input = input("What would you like to buy? (Press the number)")
+        
+    if keyboard.read_key == "space":
+        print("You are ready for the school year")
+'''
+
+    while keyboard.read_key != "space":
+        
         print("Now it's time to buy supplies. Here are your options:")
         print("1. Books")
         print("2. Calculator")
@@ -139,10 +158,33 @@ def buy_supplies():
         print("6. Charger")
         print("7. Stylus")
         print("Press spacebar to exit the supplies")
-        supplies_input = input("What would you like to buy? (Press the number)")
+        supplies_input = input("What would you like to buy? (Press the number) ")
+
+        if supplies_input == "1":
+            num_books = input("How many books would you like to buy for the school year? ")
+        elif supplies_input == "2":
+            calculator = input("What type of calculator do you want? ")
+        elif supplies_input == "3":
+            num_pencils = input("How many pens pencils do you want? ")
+        elif supplies_input == "4":
+            num_notebooks = input("How many notebooks do you want? ")
+        elif supplies_input == "5":
+            computer_type = input("What computer type do you want? ")
         
+        elif supplies_input == "6":
+            num_chargers = input("How many chargers do you want? ")
+          
+        elif supplies_input == "7":
+            num_styluses = input("How many styluses do you want? ")
+        else:
+            supplies_input = input("Choose one of the options ")
+            
+
+            
+
     if keyboard.read_key == "space":
         print("You are ready for the school year")
+            
             
     #pass
 
