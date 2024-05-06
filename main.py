@@ -1,5 +1,7 @@
 from archetype import Player
+import keyboard
 
+print(keyboard.read_key)
 def load_game():
     # If they have preloaded gamestate, load that here
     pass
@@ -17,12 +19,132 @@ def choose_archetype():
         print("Class Ditcher-- GPA: 3.1")
         chosen_archetype = input("Which archetype do you want to be?")
 
+
     player = Player(chosen_archetype)
 
     print(player.archetype)
 
 def buy_supplies():
-    pass
+
+    
+    
+    print("Now it's time to buy supplies. Here are your options:")
+    print("1. Books")
+    print("2. Calculator")
+    print("3. Pens/Pencils")
+    print("4. Notebooks")
+    print("5. Computer Quality")
+    print("6. Charger")
+    print("7. Stylus")
+    print("Press spacebar to exit the supplies")
+    supplies_input = input("What would you like to buy? (Press the number)")
+    
+
+    if supplies_input == "1":
+        num_books = input("How many books would you like to buy for the school year?")
+
+        print("Now it's time to buy supplies. Here are your options:")
+        print("1. Books")
+        print("2. Calculator")
+        print("3. Pens/Pencils")
+        print("4. Notebooks")
+        print("5. Computer Quality")
+        print("6. Charger")
+        print("7. Stylus")
+        print("Press spacebar to exit the supplies")
+        supplies_input = input("What would you like to buy? (Press the number)")
+    if supplies_input == "2":
+        calculator = input("What type of calculator do you want?")
+
+        print("Now it's time to buy supplies. Here are your options:")
+        print("1. Books")
+        print("2. Calculator")
+        print("3. Pens/Pencils")
+        print("4. Notebooks")
+        print("5. Computer Quality")
+        print("6. Charger")
+        print("7. Stylus")
+        print("Press spacebar to exit the supplies")
+        supplies_input = input("What would you like to buy? (Press the number)")
+
+    if supplies_input == "3":
+        num_pencils = input("How many pens pencils do you want?")
+
+        print("Now it's time to buy supplies. Here are your options:")
+        print("1. Books")
+        print("2. Calculator")
+        print("3. Pens/Pencils")
+        print("4. Notebooks")
+        print("5. Computer Quality")
+        print("6. Charger")
+        print("7. Stylus")
+        print("Press spacebar to exit the supplies")
+        supplies_input = input("What would you like to buy? (Press the number)")
+           
+
+    if supplies_input == "4":
+        num_notebooks = input("How many notebooks do you want?")
+
+        print("Now it's time to buy supplies. Here are your options:")
+        print("1. Books")
+        print("2. Calculator")
+        print("3. Pens/Pencils")
+        print("4. Notebooks")
+        print("5. Computer Quality")
+        print("6. Charger")
+        print("7. Stylus")
+        print("Press spacebar to exit the supplies")
+        supplies_input = input("What would you like to buy? (Press the number)")
+            
+
+    if supplies_input == "5":
+        computer_type = input("What computer type do you want?")
+ 
+        print("Now it's time to buy supplies. Here are your options:")
+        print("1. Books")
+        print("2. Calculator")
+        print("3. Pens/Pencils")
+        print("4. Notebooks")
+        print("5. Computer Quality")
+        print("6. Charger")
+        print("7. Stylus")
+        print("Press spacebar to exit the supplies")
+        supplies_input = input("What would you like to buy? (Press the number)")
+            
+
+    if supplies_input == "6":
+        num_chargers = input("How many chargers do you want?")
+            
+        print("Now it's time to buy supplies. Here are your options:")
+        print("1. Books")
+        print("2. Calculator")
+        print("3. Pens/Pencils")
+        print("4. Notebooks")
+        print("5. Computer Quality")
+        print("6. Charger")
+        print("7. Stylus")
+        print("Press spacebar to exit the supplies")
+        supplies_input = input("What would you like to buy? (Press the number)")
+          
+    
+    if supplies_input == "7":
+        num_styluses = input("How many styluses do you want?")
+            
+        print("Now it's time to buy supplies. Here are your options:")
+        print("1. Books")
+        print("2. Calculator")
+        print("3. Pens/Pencils")
+        print("4. Notebooks")
+        print("5. Computer Quality")
+        print("6. Charger")
+        print("7. Stylus")
+        print("Press spacebar to exit the supplies")
+        supplies_input = input("What would you like to buy? (Press the number)")
+        
+    if keyboard.read_key == "space":
+        print("You are ready for the school year")
+            
+    #pass
 
 # save player state in variables here
 
@@ -34,3 +156,5 @@ def game_loop():
 
 def finish():
     pass
+
+buy_supplies()
