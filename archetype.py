@@ -1,6 +1,37 @@
 class Player:
     def __init__(self, archetype):
         self.archetype = archetype
+        self.num_books = 0
+        self.num_pens = 0
+        self.num_notebooks = 0
+        self.num_chargers = 0
+        self.num_styluses = 0
+    
+    def add_num_books(self, num_books):
+        self.num_books += num_books
+
+    def add_calc_type(self, calc_type):
+        self.calc_type = calc_type
+
+    def add_calc_type(self, calc_type):
+        self.calc_type = calc_type
+
+    def add_num_pens(self, num_pens):
+        self.num_pens += num_pens
+
+    def add_num_notebooks(self, num_notebooks):
+        self.num_notebooks += num_notebooks
+    
+    def add_comp_type(self, comp_type):
+        self.comp_type = comp_type
+    
+    def add_num_chargers(self, num_chargers):
+        self.num_chargers += num_chargers
+
+    def add_num_styluses(self, num_styluses):
+        self.num_styluses += num_styluses
+
+    
     
     
 

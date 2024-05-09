@@ -1,7 +1,7 @@
 from archetype import Player
 import keyboard
 
-print(keyboard.read_key)
+
 def load_game():
     # If they have preloaded gamestate, load that here
     pass
@@ -25,6 +25,8 @@ def choose_archetype():
     print(player.archetype)
 
 def buy_supplies():
+
+
 
     
     '''
@@ -162,10 +164,11 @@ def buy_supplies():
 
         if supplies_input == "1":
             num_books = input("How many books would you like to buy for the school year? ")
+            player.add_num_books()
         elif supplies_input == "2":
             calculator = input("What type of calculator do you want? ")
         elif supplies_input == "3":
-            num_pencils = input("How many pens pencils do you want? ")
+            num_pencils = input("How many pens/pencils do you want? ")
         elif supplies_input == "4":
             num_notebooks = input("How many notebooks do you want? ")
         elif supplies_input == "5":
@@ -179,7 +182,7 @@ def buy_supplies():
         else:
             supplies_input = input("Choose one of the options ")
             
-
+    
             
 
     if keyboard.read_key == "space":
